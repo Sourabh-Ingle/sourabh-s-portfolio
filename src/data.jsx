@@ -19,27 +19,27 @@ export const menu = [
     }, {
         id: 2,
         title: 'Profile',
-        url: '#',
+        url: '#Profile',
         icon: <FaRegUser />
     }, {
         id: 3,
         title: 'Education',
-        url: '#',
+        url: '#Education',
         icon: <FaUniversity />
     }, {
         id: 4,
         title: 'Work',
-        url: '#',
+        url: '#Education',
         icon: <FaBriefcase />
     }, {
         id: 5,
         title: 'Skills',
-        url: '#',
+        url: '#Skills',
         icon: <FaRegFileCode />
     }, {
         id: 6,
         title: 'Projects',
-        url: '#',
+        url: '#Projects',
         icon: <FaEnvelope />
     }
 
