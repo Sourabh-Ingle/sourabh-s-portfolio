@@ -282,12 +282,14 @@ h4 {
   color: #335b5c;
   margin-bottom: 0.35rem;
   letter-spacing: 0.1rem;
+  text-align:center
 }
 
 .name-designation{
   color: var( --text-color);
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
+   text-align:center
 }
 
 .cvDownload ,.edu-workinfo .btn{
