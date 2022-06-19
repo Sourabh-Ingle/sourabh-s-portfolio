@@ -122,7 +122,7 @@ function App() {
           </div> */}
 
           {/* PROFILE INFO */}
-          <div className="profileinfo">
+          <div className="profileinfo" id='Profile'>
 
             <h3 className="profile-title">PROFILE</h3>
             <p className="profilepara">Seeking a position to utilize my skills and abilities and enhance them to make a successful career in the Progressive Organization by accepting challenging projects. To work with enthusiasm and dedication for the success of the organization and showcase my ability, efficiency and passion for work.</p>
@@ -141,7 +141,7 @@ function App() {
 
        {/* FOR LAPTOP VIEW 2ST DIV  FOR RESPONSIVE WEBSITE*/}
       <div className="second-div">
-        <div className="edu-workinfo">
+        <div className="edu-workinfo" id='Education'>
 
 
           <button className="btn" onClick={() => setEduOrWork(true)}>Education</button>
@@ -153,7 +153,7 @@ function App() {
 
 
         {/* SKILLS INFOMATION  */}
-        <div className='skill-section'>
+        <div className='skill-section' id='Skills'>
           <h3 className="skill-heading">SKILLS</h3>
 
           {
@@ -171,7 +171,7 @@ function App() {
 
 
         {/* PROJECT INFORMATION  */}
-        <div className="projects ">
+        <div className="projects "  id='Projects'>
           <h3 className="peoject-heading text-align">PROJECTS</h3>
           <Project />
         </div>
