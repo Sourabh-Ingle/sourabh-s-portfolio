@@ -129,7 +129,7 @@ export const skills = [
         id: 1,
         icon: <FaCode />,
         techology: 'FRONTEND development',
-        exeperience: 'Arount 6 months',
+        exeperience: 'Around 6 months',
         techno: [
             {
                 id: 11,
@@ -162,7 +162,7 @@ export const skills = [
         id: 2,
         icon: <FaServer />,
         techology: 'backend development',
-        exeperience: 'Arount 6 months',
+        exeperience: 'Around 6 months',
         techno: [
             {
                 id: 21,
@@ -189,7 +189,7 @@ export const skills = [
         id: 3,
         icon: <FaLaptopCode />,
         techology: 'Other',
-        exeperience: 'Arount 6 months (Basic)',
+        exeperience: 'Around 6 months (Basic)',
         techno: [
             {
                 id: 31,
