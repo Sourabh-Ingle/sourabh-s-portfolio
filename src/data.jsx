@@ -101,7 +101,28 @@ export const collegeinfo = [
 
 export const work = [
     {
-        id: 1,
+        id:1,
+        designation:'Frontend Developer',
+        company:'Dentsu-Sokrati',
+        year:'SEP 2022 - MAR 2023',
+        jobDesc:['Developed responsive and scalable web applications using React.js, Next.js, JavaScript, and modern CSS, improving page load performance by 30% through code optimization and lazy loading.',
+                 'Optimized frontend rendering and reusable components using React Hooks and component-level optimization techniques, reducing unnecessary re-renders by 25%.'
+                ]
+        
+    },
+    {
+        id:2,
+        designation:'Associate Software Engineer',
+        company:'Merkle-Sokrati',
+        year:'SEP 2022 - MAR 2023',
+        jobDesc:['Developed responsive and user-friendly web interfaces using HTML, CSS, JavaScript, and React.js.',
+                 'Collaborated with senior developers to implement UI components, fix bugs, and improve application performance.',
+                 'Integrated REST APIs, performed cross-browser testing, and maintained reusable frontend components.'
+                ]
+        
+    },
+    {
+        id: 3,
         designation: 'SERVICE DELIVERY EXECUTIVE',
         company: 'NEEYAMO ENTERPRISE',
         year: 'JUL 2018 - JAN 2020',
@@ -111,7 +132,7 @@ export const work = [
         ]
     },
     {
-        id: 2,
+        id: 4,
         designation: 'ELECTRICAL SUPERVISOR',
         company: 'SANJAY UMAP NETERPRISES',
         year: 'JUL 2014 - JAN 2016',
@@ -128,8 +149,8 @@ export const skills = [
     {
         id: 1,
         icon: <FaCode />,
-        techology: 'FRONTEND development',
-        exeperience: 'Around 6 months',
+        techology: 'Frontend Development',
+        exeperience: 'Around 2.5 years',
         techno: [
             {
                 id: 11,
@@ -140,20 +161,24 @@ export const skills = [
                 id: 12,
                 lang: 'css',
                 perc: '75%'
-            },
-            {
+            },{
                 id: 13,
-                lang: 'javascript',
-                perc: '70%'
+                lang: 'tailwind',
+                perc: '75%'
             },
             {
                 id: 14,
-                lang: 'react js',
+                lang: 'javascript/typescript',
                 perc: '70%'
             },
             {
                 id: 15,
-                lang: 'bootstrap',
+                lang: 'react js',
+                perc: '80%'
+            },
+            {
+                id: 16,
+                lang: 'nextjs',
                 perc: '70%'
             }
         ]
@@ -161,28 +186,28 @@ export const skills = [
     }, {
         id: 2,
         icon: <FaServer />,
-        techology: 'backend development',
-        exeperience: 'Around 6 months',
+        techology: 'Backend Development',
+        exeperience: 'Around  1 year',
         techno: [
             {
                 id: 21,
                 lang: 'node js',
-                perc: '65%'
+                perc: '80%'
             },
             {
                 id: 22,
                 lang: 'express js',
-                perc: '70%'
+                perc: '80%'
             },
             {
                 id: 23,
                 lang: 'mongo db',
-                perc: '65%'
+                perc: '60%'
             },
             {
                 id: 24,
-                lang: 'python',
-                perc: '60%'
+                lang: 'Applied Ai',
+                perc: '50%'
             }
         ]
     }, {
@@ -199,12 +224,16 @@ export const skills = [
             {
                 id: 32,
                 lang: 'git/github',
-                perc: '60%'
+                perc: '80%'
             },
             {
                 id: 33,
                 lang: 'sql',
                 perc: '55%'
+            },{
+                id: 17,
+                lang: 'CI/CD',
+                perc: '70%'
             }
         ]
 
@@ -226,21 +255,6 @@ export const projects = [
         title: "TO-DO-LIST",
         img: "img/alexandar-todov-AMzC2RVurO4-unsplash.jpg",
         link: "https://sourabh-ingle.github.io/Grocery-Bud/"
-    }, {
-        id: 3,
-        title: "COUNTER",
-        img: "img/workshop-2Kqhw3qST0o-unsplash.jpg",
-        link: "https://sourabh-ingle.github.io/Start-Stop-Counter/"
-    }, {
-        id: 4,
-        title: "COUNTER",
-        img: "img/workshop-2Kqhw3qST0o-unsplash.jpg",
-        link: "https://sourabh-ingle.github.io/Start-Stop-Counter/"
-    }, {
-        id: 5,
-        title: "COUNTER",
-        img: "img/workshop-2Kqhw3qST0o-unsplash.jpg",
-        link: "https://sourabh-ingle.github.io/Start-Stop-Counter/"
     }
 
 ]
